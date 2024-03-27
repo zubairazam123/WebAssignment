@@ -1,0 +1,49 @@
+* {
+    font-family: "Roboto Flex", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.content-wrapper {
+    width: 570px;
+}
+
+.header, .about-me, .articles {
+    text-align: center;  
+    margin-top: 100px;  
+    margin-bottom: 100px ;
+}
+
+.header {
+    background-color: #D7D7D7;
+}
+
+.about-me {
+    background-color: #FFEAEA;
+}
+
+.articles {
+    background-color: #EAF9FF;
+}
+
+.header > .content-wrapper > h1 {
+    font-weight: lighter;
+}
+section > div > h2 {
+    font-weight: lighter;
+}
+
+.articles > .content-wrapper > article > h3 {
+    font-weight: lighter;
+}
+
+p {
+    font-size: 16px;
+    
+}
