@@ -1,8 +1,12 @@
-* {
+ * {
     font-family: "Roboto Flex", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    text-align: center;
+}
+
+.main-container {
+    margin-bottom: 0;
 }
 
 img {
@@ -12,38 +16,92 @@ img {
 
 .content-wrapper {
     width: 570px;
+    margin: auto;
 }
 
-.header, .about-me, .articles {
-    text-align: center;  
-    margin-top: 100px;  
-    margin-bottom: 100px ;
-}
-
-.header {
-    background-color: #D7D7D7;
-}
-
-.about-me {
-    background-color: #FFEAEA;
-}
-
-.articles {
-    background-color: #EAF9FF;
-}
-
-.header > .content-wrapper > h1 {
+div > h1 {
+    font-size: 36px;
     font-weight: lighter;
-}
-section > div > h2 {
-    font-weight: lighter;
+    margin-top: 20px;
 }
 
-.articles > .content-wrapper > article > h3 {
+.about-me .content-wrapper h2 {
+    font-size: 24px;
     font-weight: lighter;
+    margin-top: 20px;
+    border-top: 2px solid rgba(219, 199, 199, 0.952);
+    border-bottom: 2px solid rgba(219, 199, 199, 0.952);
+    display: inline-block;
+    padding: 5px 2px;  
+    width: 50%; 
+     
+}
+
+ .articles .content-wrapper h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding: 5px 2px;  
+    width: 50%; 
+}
+div article > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section div h2 span,
+article span,
+header div h1 span {
+    font-weight: 900;
+    display: block;
+    color: #99d930
+}
+ 
+
+
+body {
+    font-size: 16px;
 }
 
 p {
-    font-size: 16px;
-    
+    font-size: 10px;
+    margin-top: 20px;
+}
+ 
+.header {
+    background-color: #252525;
+    color: #fff;
+    padding: 10px;
+}
+
+.about-me {
+    background-color: silver;
+    padding: 20px;
+}
+
+.articles {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px;
+}
+
+button{
+    padding: 8px;
+    border: 0;
+    font-weight: bold;
+    background-color: #99d930
+}
+button:hover{
+    padding: 8px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+    background-color:black;
+}
+a{
+    color: #99d930;
 }
